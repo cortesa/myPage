@@ -22,7 +22,6 @@
 	<link href="css/6.css?ts=1443357842" rel="stylesheet" type="text/css" />
 	<link href="js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
 	<script src="js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
-         $im = imagegrabwindow(www.google.com, 0)
 	<link rel="shortcut icon" href="http://cortesa.esy.es/gallery/favicon-ts1443350922.png" type="image/png" /><meta name="google-site-verification" content="" />
 	<script type="text/javascript">var currLang = 'es';</script>		
 	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -132,7 +131,7 @@
 					href: "gallery/3fee6dd087a1e91a0da9300dce9817f8_fancybox.jpg",
 					"hideOnContentClick": true
 				});
-			</script></div><div id="wb_element_instance158" class="wb_element"><div style="font-size: 1px; overflow: hidden; line-height: 1px; padding: 0; background: transparent; float: none; position: relative; margin: 1px 0 0 0; width: 100%; height: 1px; left: 0; top: 50%; border-top: 3px solid #bfbfbf;"></div></div><div id="wb_element_instance159" class="wb_element"><div></div></div><div id="wb_element_instance160" class="wb_element" style=" line-height: normal;"><h3 class="wb-stl-heading3">METEOR - English Tests<br></h3></div><div id="wb_element_instance161" class="wb_element"><div></div></div><div id="wb_element_instance162" class="wb_element"><a href="http://englishtests.meteor.com/" target="1"><img alt="" src="gallery/84f4ed660eb2ba032dcdb9f2d01fa5ec_730x400.png"></a></div><div id="wb_element_instance163" class="wb_element" style="width: 100%;">
+			</script></div><div id="wb_element_instance158" class="wb_element"><div style="font-size: 1px; overflow: hidden; line-height: 1px; padding: 0; background: transparent; float: none; position: relative; margin: 1px 0 0 0; width: 100%; height: 1px; left: 0; top: 50%; border-top: 3px solid #bfbfbf;"></div></div><div id="wb_element_instance159" class="wb_element"><div></div></div><div id="wb_element_instance160" class="wb_element" style=" line-height: normal;"><h3 class="wb-stl-heading3">METEOR - English Tests<br></h3></div><div id="wb_element_instance161" class="wb_element"><div></div></div><div id="wb_element_instance162" class="wb_element"><a href="http://english-tests.herokuapp.com/" target="1"><img alt="" src="gallery/84f4ed660eb2ba032dcdb9f2d01fa5ec_730x400.png"></a></div><div id="wb_element_instance163" class="wb_element" style="width: 100%;">
 			<?php
 				global $show_comments;
 				if (isset($show_comments) && $show_comments) {
