@@ -37,13 +37,35 @@
 <div class="vbox wb_container" id="wb_main">
 	
 <div id="wb_element_instance125" class="wb_element"><a class="btn btn-default btn-collapser"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><ul class="vmenu"><li><a href="es/Inicio/" target="_self" title="Inicio">Inicio</a></li><li class="active"><a href="es/Proyectos/" target="_self" title="Proyectos">Proyectos</a></li></ul><script type="text/javascript"> (function() { var isOpen = false, elem = $('#wb_element_instance125'), btn = elem.children('.btn-collapser').eq(0); btn.on('click', function() { if (elem.hasClass('collapse-expanded')) { isOpen = false; elem.removeClass('collapse-expanded'); } else { isOpen = true; elem.addClass('collapse-expanded'); } }); elem.find('ul').each(function() { var ul = $(this); if (ul.parent('li').length > 0) { ul.parent('li').eq(0).children('a').on('click', function() { if (!isOpen) return true; if (ul.css('display') !== 'block') ul.css({display: 'block'}); else ul.css({display: ''}); return false; }); } }); })(); </script></div><div id="wb_element_instance133" class="wb_element"><div></div></div><div id="wb_element_instance135" class="wb_element" style=" line-height: normal;"><h4 class="wb-stl-pagetitle">proyectos<br></h4></div><div id="wb_element_instance136" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-</div><div id="wb_element_instance137" class="wb_element"><img alt="" src="gallery/3fee6dd087a1e91a0da9300dce9817f8_393x220.jpg"><h3>EN CONSTRUCCION</h3><script type="text/javascript">
+</div>
+
+	<div id="wb_element_instance137" class="wb_element"><img alt="" src="gallery/3fee6dd087a1e91a0da9300dce9817f8_393x220.jpg">
+		<h3>EN CONSTRUCCION</h3>
+			<script type="text/javascript">
 				$("#wb_element_instance137").fancybox({
 					href: "gallery/3fee6dd087a1e91a0da9300dce9817f8_fancybox.jpg",
-					"hideOnContentClick": true
+					"hideOnContentClick": false
 				});
-			</script></div><div id="wb_element_instance138" class="wb_element"><div style="font-size: 1px; overflow: hidden; line-height: 1px; padding: 0; background: transparent; float: none; position: relative; margin: 1px 0 0 0; width: 100%; height: 1px; left: 0; top: 50%; border-top: 3px solid #bfbfbf;"></div></div><div id="wb_element_instance139" class="wb_element"><div></div></div><div id="wb_element_instance140" class="wb_element" style=" line-height: normal;"><h3 class="wb-stl-heading3">METEOR - English Tests</h3>
-</div><div id="wb_element_instance141" class="wb_element"><div></div></div><div id="wb_element_instance142" class="wb_element"><a href="#" target="1"><img alt="" src="gallery/84f4ed660eb2ba032dcdb9f2d01fa5ec_730x400.png"></a></div><div id="wb_element_instance143" class="wb_element" style="width: 100%;">
+			</script>
+	</div>
+
+	<div id="wb_element_instance138" class="wb_element"><div style="font-size: 1px; overflow: hidden; line-height: 1px; padding: 0; background: transparent; float: none; position: relative; margin: 1px 0 0 0; width: 100%; height: 1px; left: 0; top: 50%; border-top: 3px solid #bfbfbf;"></div></div>
+
+	<div id="wb_element_instance139" class="wb_element">
+		<div></div>
+	</div>
+
+	<div id="wb_element_instance140" class="wb_element" style=" line-height: normal;">
+		<h3 class="wb-stl-heading3">METEOR - English Tests</h3>
+	</div>
+
+	<div id="wb_element_instance141" class="wb_element">
+		<div></div>
+	</div>
+
+	<div id="wb_element_instance142" class="wb_element"><a href="http://english-tests.herokuapp.com/" target="1"><img alt="" src="gallery/84f4ed660eb2ba032dcdb9f2d01fa5ec_730x400.png"></a></div>
+
+	<div id="wb_element_instance143" class="wb_element" style="width: 100%;">
 			<?php
 				global $show_comments;
 				if (isset($show_comments) && $show_comments) {
